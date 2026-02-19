@@ -1,0 +1,55 @@
+----------------------[SRE 0.990 Registration]------------------------------
+Although you are not required to register SRE, if you like the game, please
+send $15 US!  And if you'd like to register, please read REGISTER.DOC first,
+and then fill out this form:  (alternatively, you could use an editor with
+'overtype' mode and fill out the form on the computer, and -then- print it
+out!)  Sorry, we do not register to aliases/handles; real names only!  There
+is no credit card registration.  It takes 3 to 4 weeks to receive your codes.
+
+Required information:
+Name    ____________________________________________________________________
+Address ____________________________________________________________________
+        ____________________________________________________________________
+City _______________________ State _____ Country ________ ZIP _______-______
+SRE Version _______________     [if unsure, see the first line of WHATS.NEW]
+
+The registered version of SRE has a Solar Bank.  Players can deposit, make
+loans, and invest money with the bank.  Please name your bank:
+[45 chars max]     [_____________________________________________]
+
+*Optional* information:
+BBS Software: ______________________________________________________________
+Computer System:  [ ] 8088  [ ] 286  [ ] 386  [ ] 486  [ ] Other: __________
+Doorfile(s) produced:  [ ] DOOR.SYS       [ ] DORINFO1.DEF
+   [ ] CALLINFO.BBS    [ ] SFDOORS.DAT    [ ] CHAIN.TXT
+   [ ] PCBOARD.SYS     [ ] GTUSER.BBS     [ ] Other(s) _____________________
+COM port(s):  [ ] 1   [ ] 2   [ ] 3   [ ] 4    Max Baud Rate: ______________
+
+Name of BBS: _______________________________________________________________
+BBS Number:  (____) _____-______  Your Birthday: ____/____/______ Age: _____
+BBS runs under  [ ] MS-DOS  [ ] DR-DOS  [ ] DESQview  [ ] OS/2
+                [ ] MS-Windows  [ ] PC Emulator  [ ] Other _________________
+Are you on FidoNET?                    [ ] Yes, node: ___:____/______ [ ] No
+
+How important are online games on your BBS?  _______________________________
+
+You do not have to call our board for the registration numbers.  We send
+all registrations through the U.S. Mail.  Suggestions, comments, bug
+reports, problems, or anything else:  (For example, did SRE work without
+trouble with your BBS, or did you have to do something extra to make it
+work?  Have you tried non-inflationary mode?)
+
+
+
+
+
+
+
+Print out this file and send to:
+
+    Amit Patel
+    4851 Cairnsean
+    Houston, TX 77084-2541
+
+Thanks!
+

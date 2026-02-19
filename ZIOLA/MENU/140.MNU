@@ -1,0 +1,13 @@
+M,10,main menu,,0,10
+A,10,change,,100,10
+<,10,change,,130,10
+U,10,upload file,,4,12
+S,10,show stats,,4,24
+T,10,text search,,4,23
+N,10,new file,,4,21
+D,10,download file,,4,8
+F,10,find files,,4,22
+L,10,list files,,4,13
+P,10,page,,,15
+G,10,good bye,,50,10
+C,10,comment,,5,16

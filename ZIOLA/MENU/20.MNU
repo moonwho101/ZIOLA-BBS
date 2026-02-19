@@ -1,0 +1,11 @@
+M,10,main menu,,0,10
+W,10,write,,1,1
+R,10,write,,1,2
+A,10,message,,1,10
+N,10,scan,,,11
+H,10,message,,1,26
+Q,10,message,,1,25
+>,10,message,,25,10
+P,10,page,,,15
+G,10,good bye,,50,10
+C,10,comment,,5,16

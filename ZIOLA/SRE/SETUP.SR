@@ -1,0 +1,11 @@
+c:\bz\DORINFO1.DEF
+7   <- Line # of Username or First name
+8   <- Line # of Last name (0 if previous line was entire name)
+0   <- Line # of IBM characters (1 or Y or G = yes)
+0   <- Line # of ANSI support (1 or Y or G or C = yes)
+0   <- Line # of number of lines on the screen
+5   <- Line # of baud rate
+4   <- Line # of COM port
+12   <- Line # of time left, in minutes
+0   <- Line # of Real Name, or 0 if the same as above
+Enter 0 for any value not supported.

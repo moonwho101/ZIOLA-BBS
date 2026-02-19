@@ -1,0 +1,56 @@
+  SOLAR REALMS ELITE
+  Unpacking Instructions
+컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
+0.  Versions 0.990 and newer of SRE are -NOT- compatible with previous
+    versions (0.986 and earlier).  You may wish to delete your old
+    directory before installing this new version.
+
+    If you have previously registered, save the file STATUS.SRE, which
+    enables registration features.  (If you delete it, you will have
+    to re-run "SRE REGISTER".)
+
+1.  Unpack the rest of the files by running
+
+        UNPACK -y
+
+2.  Read Docs/SYSOP.DOC for instructions on installing this game.
+
+3.  You may delete UNPACK.EXE after you unpack everything; it is
+    not needed unless you want to unpack everything into another
+    directory.
+
+컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+  FILE LISTING for files created by UNPACK:
+
+
+DATA directory:
+research.dat    10455   1-01-93  18:25 Research & Development advancements
+TEXT directory:
+player.msg      34455   2-08-93   8:21 Instructions file
+srtopics.hlp    28661   1-21-93  17:32 Short help text file
+SCREENS directory:
+newplaye.msg     1159   1-01-93  17:39 Shown to new players
+timeup.ans        658   1-01-93  17:39 Ran out of time while playing
+DOCS directory:
+bugrpt.txt       2298   1-01-93  17:39 Send to us if you find a bug
+distrib.txt      1875   1-18-93  20:57 Distribution sites listing
+q&a.txt          9768   1-01-93  17:39 Questions and Answers about SRE
+register.doc    12020   1-08-93  15:06 Registration information
+resource.doc    23300   2-20-93  17:29 Resource.DAT reference
+srdoor.doc      10874   1-07-93  18:42 SRDOOR documentation
+srereg.txt       2548   1-28-93  19:51 Registration form
+sysop.doc       17489   1-14-93  22:26 Sysop documentation
+whats.new       13368   2-20-93  18:50 What is NEW in this version!
+whats.old       23541   1-21-93  22:54 What was NEW in the OLD SRE
+
+
+  FILE LISTING for the main directory:
+
+install.exe     46032   1-17-93  14:42 Installation program
+readme.1st       1999   2-20-93  19:12 READ ME FIRST
+srdoor.exe      14416   1-19-93  20:58 SRDOOR door converter
+sre.cfg          7831   2-13-93  11:09 Installer's configuration file
+sre.exe        401152   2-20-93  18:53 The game!
+unpack.exe      81156   2-20-93  19:12 Data files for SRE
+

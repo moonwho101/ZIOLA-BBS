@@ -1,0 +1,6 @@
+M,5,main menu,,0,10
+P,5,page,,,15
+G,5,good bye,,50,10
+C,5,comment,,5,16
+1,5,ds,,sre.bat,27
+2,5,ds,,ds.bat,27

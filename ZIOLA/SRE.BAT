@@ -1,0 +1,8 @@
+@ECHO OFF
+C:
+CD \BZ\SRE
+DEL INUSE.*
+SRDOOR
+SRE
+c:
+CD \bz

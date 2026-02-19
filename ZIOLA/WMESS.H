@@ -1,18 +1,16 @@
 void who(unsigned char sysop);
-long int save_message (struct mess message[],unsigned char l_number,unsigned char loc[],struct index *idx,struct who *who_tf);
-long int line_editor(struct index *idx,struct who *who_to_from);
-void d_line(unsigned char l_num,unsigned char b_bar,unsigned char warn);
+long int save_message(struct mess message[], unsigned char l_number, unsigned char loc[], struct index *idx, struct who *who_tf);
+long int line_editor(struct index *idx, struct who *who_to_from);
+void d_line(unsigned char l_num, unsigned char b_bar, unsigned char warn);
 unsigned char get_colr(unsigned char *r);
 void message_color(int val);
 void display_m_bar(void);
-void list_message(struct mess message[],unsigned char l_number,unsigned char loc[]);
-unsigned char del_message(unsigned char l_number,unsigned char loc[]);
-void get_single_line(unsigned char length,unsigned char ansi_in);
-unsigned char replace_line(struct mess message[],unsigned char l_number,unsigned char loc[]);
-unsigned char insert_line(struct mess message[],unsigned char l_number,unsigned char loc[]);
-void edit_line(struct mess message[],unsigned char l_number,unsigned char loc[]);
+void list_message(struct mess message[], unsigned char l_number, unsigned char loc[]);
+unsigned char del_message(unsigned char l_number, unsigned char loc[]);
+void get_single_line(unsigned char length, unsigned char ansi_in);
+unsigned char replace_line(struct mess message[], unsigned char l_number, unsigned char loc[]);
+unsigned char insert_line(struct mess message[], unsigned char l_number, unsigned char loc[]);
+void edit_line(struct mess message[], unsigned char l_number, unsigned char loc[]);
 unsigned char quit_m(void);
-void list_line(unsigned char test[],unsigned char test_c[],unsigned char i);
+void list_line(unsigned char test[], unsigned char test_c[], unsigned char i);
 void color_chart(void);
-
-

@@ -6,13 +6,9 @@
 
 main()
 
-
-
-
 {
-    char    savdcolr, lbuf[2];
-    char    cmdcom[60];
-
+	char savdcolr, lbuf[2];
+	char cmdcom[60];
 
 	/*
 	*cmdcom = '\0';
@@ -24,17 +20,11 @@ main()
 	    strcpy(cmdcom, "COMMAND.COM");
 	*/
 
-
 	chdir("c:\\ziola\\files\\1");
 
-	strcpy(cmdcom,"dsz.exe");
+	strcpy(cmdcom, "dsz.exe");
 
+	spawnlp(P_WAIT, cmdcom, cmdcom, NULL); /* spawn COMMAND.COM */
 
-	spawnlp(P_WAIT, cmdcom, cmdcom, NULL);        /* spawn COMMAND.COM */
-
-
-   printf("dadsadsa");
-
+	printf("dadsadsa");
 }
-
-

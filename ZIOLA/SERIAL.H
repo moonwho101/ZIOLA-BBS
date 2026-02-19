@@ -1,7 +1,7 @@
 /********************************************************************
-* serial.h - Header file for Serial Comm Prog in C and C++          *
-*            Copyright (c) 1992 By Mark D. Goodwin                  *
-********************************************************************/
+ * serial.h - Header file for Serial Comm Prog in C and C++          *
+ *            Copyright (c) 1992 By Mark D. Goodwin                  *
+ ********************************************************************/
 #ifndef __SERIALH__
 #define __SERIALH__
 
@@ -14,9 +14,9 @@
 #define FALSE 0
 
 /* parity constants */
-#define NO_PARITY 0						/* no parity constant */
-#define EVEN_PARITY 1					/* even parity constant */
-#define ODD_PARITY 2					/* odd parity constant */
+#define NO_PARITY 0   /* no parity constant */
+#define EVEN_PARITY 1 /* even parity constant */
+#define ODD_PARITY 2  /* odd parity constant */
 
 /* file transfer constants */
 #define XMODEM 1
@@ -25,12 +25,12 @@
 #define YMODEMG 4
 
 /* file error handler constants */
-#define SENDING 1						/* sending file code */
-#define RECEIVING 2						/* receiving file code */
-#define SENT 3							/* block sent ok code */
-#define RECEIVED 4						/* block received ok code */
-#define ERROR 5							/* error code */
-#define COMPLETE 6						/* completed transfer code */
+#define SENDING 1   /* sending file code */
+#define RECEIVING 2 /* receiving file code */
+#define SENT 3      /* block sent ok code */
+#define RECEIVED 4  /* block received ok code */
+#define ERROR 5     /* error code */
+#define COMPLETE 6  /* completed transfer code */
 
 /* global variables */
 extern int sibuff, eibuff, ilen;
@@ -78,7 +78,7 @@ void open_port(int port, int inlen);
 int port_exist(int port);
 void purge_in(void);
 int put_serial(unsigned char n);
-int recv_file(int xtype, int(*error_handler)(int c, long p, char *s), char *path);
+int recv_file(int xtype, int (*error_handler)(int c, long p, char *s), char *path);
 void set_baud(long baud);
 void set_data_format(int bits, int parity, int stopbit);
 void set_dtr(int n);

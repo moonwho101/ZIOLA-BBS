@@ -8,36 +8,33 @@
 
 /*様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様*/
 
-void goto_xy(int x,int y) {
+void goto_xy(int x, int y) {
 
-  union REGS r;
-  r.h.ah = 2;
-  r.h.dl = (unsigned char) y;
-  r.h.dh = (unsigned char) x;
-  r.h.bh = 0;
+	union REGS r;
+	r.h.ah = 2;
+	r.h.dl = (unsigned char)y;
+	r.h.dh = (unsigned char)x;
+	r.h.bh = 0;
 
-  int86(0x10,&r,&r);
+	int86(0x10, &r, &r);
 }
 
+void cls(startx, starty, endx, endy)
 
-void cls(startx,starty,endx,endy)
-
-unsigned char startx,starty,endx,endy;
+    unsigned char startx,
+    starty, endx, endy;
 
 {
 
-  union REGS r;
+	union REGS r;
 
-  r.h.ah= 6;
-  r.h.al=0;
-  r.h.ch =startx;
-  r.h.cl=starty;
-  r.h.dh=endx;
-  r.h.dl = endy;
-  r.h.bh = 7;
+	r.h.ah = 6;
+	r.h.al = 0;
+	r.h.ch = startx;
+	r.h.cl = starty;
+	r.h.dh = endx;
+	r.h.dl = endy;
+	r.h.bh = 7;
 
-  int86(0x10,&r,&r);
-
+	int86(0x10, &r, &r);
 }
-
-

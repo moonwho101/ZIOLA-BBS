@@ -93,8 +93,23 @@ ZIOLA BBS was written for **Borland C++** targeting MS-DOS real-mode. The origin
 ### Option A — Original toolchain (DOSBox + Borland C++ 3.1)
 
 1. Install [DOSBox](https://www.dosbox.com/) or [DOSBox-X](https://dosbox-x.com/).
-2. Mount the workspace and a copy of Borland C++ 3.1.
+2. Mount the workspace into c:\bz in DOSBox
 3. Open `BBS.PRJ` in the Borland C IDE
+
+ ```
+dosbox.conf emulate modem example
+
+[serial]
+serial1=modem
+serial2=disabled
+serial3=disabled
+serial4=disabled
+
+[modem] 
+modem=true 
+comport=1 
+listenport=23 
+```
 
 ---
 

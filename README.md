@@ -81,7 +81,7 @@ ZIOLA/
 
 ## Building
 
-ZIOLA BBS was written for **Borland C++ / Turbo C** targeting MS-DOS real-mode. The original project files are included:
+ZIOLA BBS was written for **Borland C++** targeting MS-DOS real-mode. The original project files are included:
 
 | File | Purpose |
 |---|---|
@@ -94,8 +94,7 @@ ZIOLA BBS was written for **Borland C++ / Turbo C** targeting MS-DOS real-mode. 
 
 1. Install [DOSBox](https://www.dosbox.com/) or [DOSBox-X](https://dosbox-x.com/).
 2. Mount the workspace and a copy of Borland C++ 3.1.
-3. Open `BBS.PRJ` in the Turbo C IDE, or run:
-   ```
+3. Open `BBS.PRJ` in the Borland C IDE
 
 ---
 
